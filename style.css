@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+html {
+    height: 100%;
+    margin: auto;
+    width: 960px;
+	overflow: scroll;
+}
+
+.top-header { 
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%; 
+	height: 80px;
+	background-color: pink;
+	background-size: cover; 
+	background-position: center; 
+} 
+
+.top-header .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.top-header a {
+	float: left;
+	color: black;
+	padding: 12px;
+	text-decoration: none;
+	line-height: 50px;
+	border-radius: 4px;
+}
+
+.top-header a.name {
+	margin-left: 30px;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.header-right {
+	font-size: 25px;
+	float: right;
+	margin-right: 190px;
+}
+
+nav {
+	width: 400px;
+	position: absolute;
+	top: 100px;
+	left: 20px;
+	line-height: 40px;
+	background: #eee;
+	padding: 8px 0;
+	opacity: 0.9;
+}
+
+nav label {
+	padding: 6px 8px 6px 0px;
+	font-size: 25px;
+	font-weight: 500;
+	display: block;
+	color: hotpink;
+}
+
+label button {
+	padding: 6px 8px 6px 0px;
+	border: none;
+	font-size: 25px;
+	display: block;
+	color: hotpink;
+	cursor: pointer;
+}
+
+a button {
+	border: none;
+	text-decoration: none;
+	font-size: 22px;
+	display: block;
+	color: palevioletred;
+	cursor: pointer;
+}
+
+a button:hover {
+	color: #064579;
+}
+
+nav button:hover {
+	color: #064579;
+}
+
+nav ul li{
+	padding: 0px 20px;
+}
+
+nav ul li a {
+	padding: 6px 8px 6px 16px;	
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: 500;
+	display: block;
+	color: palevioletred;
+	cursor: pointer;
+}
+
+nav ul li a:hover {
+	color: #064579;
+}
+
+nav ul ul{
+	position: static;
+}
+
+nav ul ul li{
+	line-height: 30px;
+	padding-left: 30px;
+	border-bottom: none;
+}
+
+body {
+	background: url("img/sakura.jpg") no-repeat 101% center;
+	background-attachment: fixed;
+	background-size: 850px 850px;
+}
+
+.main-body {
+	width: 1300px;
+	position: absolute;
+	padding: 20px;
+	top: 100px;
+	left: 445px;
+	bottom: 20px;
+	line-height: 40px;
+	background: #eee;
+	opacity: 0.9;
+	padding: 12px 12px 12px 12px;
+}
